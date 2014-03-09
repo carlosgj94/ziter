@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" type="text/css" href="css/ratchet.css" />
+    <link rel="stylesheet" type="text/css" href="css/ratchet-theme-ios.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.0.3/css/font-awesome.min.css" />
+    <script type="application/javascript" src="js/functions.js"></script>
+    <title>Hello World</title>
+</head>
+
+<body style="background-color: #333;" onload="getPicture()">
+    <header class="bar bar-nav">
+        <a href="index.html">
+            <button class="btn btn-link btn-nav pull-left">
+                <span class="icon icon-left-nav"></span>
+                Atrás
+            </button>
+        </a>
+        <h1 class="title">
+            Nueva incidencia
+        </h1>
+    </header>
+
+    <div class="content">
+        <div align="center" class="pictureConatiner">
+            <img class='picture' id="picture" src='' />
+        </div>
+        <br>
+        <label>
+            <b>Descripción:</b>
+        </label>
+        <br>
+        <textarea rows="5"></textarea>
+        <button class="btn btn-primary btn-block">Terminar</button>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>
