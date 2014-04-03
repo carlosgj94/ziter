@@ -720,7 +720,7 @@ input[type="button"] {
   margin-top: 0;
   margin-bottom: 15px;
   list-style: none;
-  background-color: #fff;
+  background: transparent;
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
 }

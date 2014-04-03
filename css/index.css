@@ -24,3 +24,26 @@
     height:auto;
     
 }
+.share{
+    padding-top: 25%;
+    padding-bottom: 3%;
+    
+}
+.backw {
+    background-color: rgba(248, 248, 248, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 0 0 0;
+}
+.name{
+    color:#6ae282;
+}
+
+.tag{
+    color:#60caec;
+}

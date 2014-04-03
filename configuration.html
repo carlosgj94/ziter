@@ -10,21 +10,32 @@
     <link rel="stylesheet" type="text/css" href="css/ratchet-theme-ios.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
     <link rel="stylesheet" type="text/css" href="font-awesome-4.0.3/css/font-awesome.min.css"/>
-    <title>Hello World</title>
+    <title>Ziter</title>
 </head>
 
-<body style="background-color: #333;">
+<body>
+   
     <header class="bar bar-nav">
-        <h1 class="title"><b>Ziter</b></h1>
+        <a href="index.html">
+            <button class="btn btn-link btn-nav pull-left">
+                <span class="icon icon-left-nav"></span>
+                Atrás
+            </button>
+        </a>
+        <h1 class="title"><b>Configuración</b></h1>
     </header>
+ <div class='content backw'>
+   <ul class="table-view">
+    <li class="table-view-divider"><b>Ajustes generales</b></li>
+  <li class="table-view-cell"><i class='fa fa-location-arrow'></i> Ajustes de geolocalización</li>
+  <li class="table-view-cell"><i class='fa fa-facebook'></i> Conectar con Facebook</li>
+  <li class="table-view-cell"><i class='fa fa-twitter'></i> Conectar con twitter</li>
+  <li class="table-view-divider"><b>Cuenta</b></li>
+  <li class="table-view-cell"><i class='fa fa-refresh'></i> Cambiar datos</li>
+  <li class="table-view-cell"><i class='fa fa-power-off'></i> Logout</li>
+</ul>
 
-    <div class="content">
-        <a href="add_incidence.html"><div class="box"><i class="fa fa-bullhorn fa-3x"></i><br>Añadir incidencia</div></a>
-       <a href='map.html'> <div class="box"><i class="fa fa-map-marker fa-3x"></i><br>Mapa</div></a>
-        <a href="incidence_list.html"><div class="box"><i class='fa fa-eye fa-3x'></i><br>Lista Incidencias</div></a>
-       <a href='configuration.html'><div class="box"><i class='fa fa-gear fa-3x'></i><br>Configuración</div></a>
-
-    </div>
+ </div>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
